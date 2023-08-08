@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment02", "Assignment02\Assignment02.csproj", "{97AB61D8-2589-4ECA-800C-508023FC64BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleTests.cs", "CircleTests.cs\CircleTests.cs.csproj", "{3887BD6C-EA5A-42AB-8364-34B61FAA4D98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97AB61D8-2589-4ECA-800C-508023FC64BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AB61D8-2589-4ECA-800C-508023FC64BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AB61D8-2589-4ECA-800C-508023FC64BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AB61D8-2589-4ECA-800C-508023FC64BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3887BD6C-EA5A-42AB-8364-34B61FAA4D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3887BD6C-EA5A-42AB-8364-34B61FAA4D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3887BD6C-EA5A-42AB-8364-34B61FAA4D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3887BD6C-EA5A-42AB-8364-34B61FAA4D98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40EEB308-539E-4DD6-8B7D-9D9D70126F0A}
+	EndGlobalSection
+EndGlobal
