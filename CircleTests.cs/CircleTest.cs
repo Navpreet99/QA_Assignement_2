@@ -137,6 +137,50 @@ namespace CircleTests
             Assert.AreEqual(expected, result, 0.01);
         }
 
+        [Test]
+        public void GetArea_Input45_Valid()
+        {
+            // Arrange
+            var radius = 45;
+            var expected = System.Math.PI * System.Math.Pow(radius, 2);
+            var circle = new Circle(radius);
+
+            // Act
+            var result = circle.GetArea();
+
+            // Assert
+            Assert.AreEqual(expected, result, 0.01);
+        }
+
+        [Test]
+        public void GetArea_Input23_Valid()
+        {
+            // Arrange
+            var radius = 23;
+            var expected = System.Math.PI * System.Math.Pow(radius, 2);
+            var circle = new Circle(radius);
+
+            // Act
+            var result = circle.GetArea();
+
+            // Assert
+            Assert.AreEqual(expected, result, 0.01);
+        }
+
+        [Test]
+        public void GetArea_Input27_Valid()
+        {
+            // Arrange
+            var radius = 27;
+            var expected = System.Math.PI * System.Math.Pow(radius, 2);
+            var circle = new Circle(radius);
+
+            // Act
+            var result = circle.GetArea();
+
+            // Assert
+            Assert.AreEqual(expected, result, 0.01);
+        }
     }
 
 }
