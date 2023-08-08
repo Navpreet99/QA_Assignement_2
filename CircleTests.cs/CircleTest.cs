@@ -50,6 +50,93 @@ namespace CircleTests
             Assert.AreEqual(expected, result);
         }
 
+        [Test]
+        public void SetRadius_Input17_Valid()
+        {
+            // Arrange
+            var expected = 17;
+            var circle = new Circle();
+
+            // Act
+            circle.SetRadius(expected);
+
+            // Assert
+            Assert.AreEqual(expected, circle.GetRadius());
+        }
+
+        [Test]
+        public void SetRadius_Input19_Valid()
+        {
+            // Arrange
+            var expected = 19;
+            var circle = new Circle();
+
+            // Act
+            circle.SetRadius(expected);
+
+            // Assert
+            Assert.AreEqual(expected, circle.GetRadius());
+        }
+
+        [Test]
+        public void SetRadius_InputNegative1_Valid()
+        {
+            // Arrange
+            var expected = -1;
+            var circle = new Circle();
+
+            // Act
+            circle.SetRadius(expected);
+
+            // Assert
+            Assert.AreEqual(expected, circle.GetRadius());
+        }
+
+        [Test]
+        public void GetCircumference_Input15_Valid()
+        {
+            // Arrange
+            var radius = 15;
+            var expected = 2 * System.Math.PI * 15;
+            var circle = new Circle(radius);
+
+            // Act
+            var result = circle.GetCircumference();
+
+            // Assert
+            Assert.AreEqual(expected, result, 0.01);
+        }
+
+        [Test]
+        public void GetCircumference_InputNegative45_Valid()
+        {
+            // Arrange
+            var radius = -45;
+            var expected = 2 * System.Math.PI * radius;
+            var circle = new Circle(radius);
+
+            // Act
+            var result = circle.GetCircumference();
+
+            // Assert
+            Assert.AreEqual(expected, result, 0.01);
+        }
+
+        [Test]
+        public void GetCircumference_Input16_Valid()
+        {
+            // Arrange
+            var radius = 16;
+            var expected = 2 * System.Math.PI * radius;
+            var circle = new Circle(radius);
+
+            // Act
+            var result = circle.GetCircumference();
+
+            // Assert
+            Assert.AreEqual(expected, result, 0.01);
+        }
+
     }
 
 }
